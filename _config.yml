@@ -30,7 +30,7 @@ force-https: False
 
 lang: "en"
 author: "N'Famoussa Kounon NANAMOU"
-title: "top"
+title: "Nanamou top"
 description: "Le bloc-notes d'un hacker bienveillant"
 keywords: "nanamou224, offensive security, defensive security, builder & breaker, guinea"
 favicon: "/img/favicon.ico"
@@ -52,9 +52,9 @@ dynamic-typing: True
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
-start-delay: 200
-delete-delay: 5000
+type-speed: 5
+start-delay: 100
+delete-delay: 4000
 lines: # You can add HTML Tags in the Text
   - text: "Bienvenue sur le bloc notes d'un hacker bienveillant !"
   - text: "Je suis N'Famoussa Kounon NANAMOU."
