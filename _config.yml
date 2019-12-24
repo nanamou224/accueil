@@ -30,7 +30,7 @@ force-https: False
 
 lang: "en"
 author: "N'Famoussa Kounon NANAMOU"
-title: "<nom> Nanamou </nom>"
+title: "top"
 description: "Le bloc-notes d'un hacker bienveillant"
 keywords: "nanamou224, offensive security, defensive security, builder & breaker, guinea"
 favicon: "/img/favicon.ico"
@@ -56,7 +56,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: " ## Bienvenue sur le bloc notes d'un hacker bienveillant !"
+  - text: "Bienvenue sur le bloc notes d'un hacker bienveillant !"
   - text: "Je suis N'Famoussa Kounon NANAMOU."
   - text: "Et si on apprenait quelque chose de sympa?"
   - text: "Dormons moins bête aujourd'hui..."
