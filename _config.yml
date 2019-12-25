@@ -136,7 +136,7 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/spidertocat.png"
     date: "2017 - 2020"
-    description: "Elève-ingénieur en cyber-sécurité à l'ENSIAS"
+    description: " <small> Elève-ingénieur en cyber-sécurité à l'ENSIAS </small>"
   - image: "/img/timeline/baracktocat.jpg"
     date: "2015 - 2017"
     description: "Etudiant en Maths-Informatique-Physique à la FSTE"
