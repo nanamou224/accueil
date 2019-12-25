@@ -136,13 +136,13 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/spidertocat.png"
     date: "2017 - 2020"
-    description: "  <small> Elève-ingénieur en cyber-sécurité à l'ENSIAS </small>"
+    description: "<small> Elève-ingénieur en Sécurité des Systèmes d'Information à l'ENSIAS </small>"
   - image: "/img/timeline/baracktocat.jpg"
     date: "2015 - 2017"
-    description: "Etudiant en MIP à la FSTE"
+    description: "<small> Etudiant en Mathématiques-Informatique-Physique à la FSTE </small>"
   - image: "/img/timeline/baracktocat.jpg"
     date: "2012 - 2015"
-    description: "Elève en Sciences Maths à Sainte Marie"
+    description: "<small> Elève en Sciences Mathématique à Sainte Marie </small>"
     
 # First image of the Timeline
 
