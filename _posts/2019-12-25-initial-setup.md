@@ -1,8 +1,8 @@
 ---
 layout: post
 section-type: post
-title: Initial setup
-category: tech
+title: A propos de moi
+category: autobiographie
 tags: [ 'autobiographie' ]
 ---
 
@@ -40,6 +40,4 @@ $font-color: #fff;
 
 That's it!
 
-Visit [http://127.0.0.1:4000](http://127.0.0.1:4000) and you are ready to start hacking around your { Personal } website!
-
-<small>Many thanks to <a href="https://github.com/joariasl" target="\_blank">@joariasl</a> for the language support! </small>
+Visitez: [http://nanamou224.com](http://nanamou224.com) !
