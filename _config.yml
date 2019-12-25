@@ -135,12 +135,15 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
+    date: "2017 - 2020"
+    description: "Elève-ingénieur en cyber-sécurité à l'ENSIAS"
   - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
-
+    date: "2015 - 2017"
+    description: "Etudiant en Maths-Informatique-Physique à la FSTE"
+  - image: "/img/timeline/baracktocat.jpg"
+    date: "2012 - 2015"
+    description: "Elève en Sciences Mathématiques à Sainte Marie"
+    
 # First image of the Timeline
 
 timeline-img: "/img/timeline/default.png"
