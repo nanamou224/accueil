@@ -31,7 +31,7 @@ Le but de cet article est de vous apprendre à héberger votre "shell code" en l
       sudo service apache2 start
   </code></pre> <br/>
 
-**Etape 3**: naviguer vers l'adresse IP de sa machine linux &nbs; [http://1.23.201.17:8080](http://10.23.201.17:80), par exemple.
+**Etape 3**: naviguer vers l'adresse IP de sa machine linux `http://10.23.201.17:80`, par exemple.
   
 ---------------------------------------------
 
@@ -46,5 +46,5 @@ Le but de cet article est de vous apprendre à héberger votre "shell code" en l
     #se mettre à l'écoute sous le port 8080 
     sudo python -m SimpleHTTPServer 8080
   </code></pre> <br/>
-**Etape 3**: naviguer vers l'adresse IP de sa machine linux &nbs; [http://1.23.201.17:8080](http://10.23.201.17:8080), par exemple.
+**Etape 3**: naviguer vers l'adresse IP de sa machine linux `http://10.23.201.17:8080`, par exemple.
 .
