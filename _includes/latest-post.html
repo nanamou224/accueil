@@ -30,7 +30,7 @@
 
         {{ page.content | markdownify }}
 
-        {% assign post = site.posts.first %}
+        {% assign post = site.posts.second %}
         <h4> <strong> {{ post.date | date_to_string }} </strong>
           <small>.
             <a class="category" href="{{site.baseurl}}/categories/{{post.category | downcase}}.html">
