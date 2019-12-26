@@ -25,13 +25,16 @@ Le but de cet article est de vous apprendre à héberger votre "shell code" en l
   <pre><code data-trim class="yaml">
       #méthode 1
       sudo /etc/init.d/apache2 restart 
-    
-      #méthode 2
-      sudo /etc/init.d/apache2 restart
   </code></pre> <br/>
-**Etape 3**: naviguer vers l'adresse IP de sa machine linux [http://1.23.201.17](http://10.23.201.17) <br/>
+   <pre><code data-trim class="yaml">
+      #méthode 2
+      sudo service apache2 start
+  </code></pre> <br/>
+
+**Etape 3**: naviguer vers l'adresse IP de sa machine linux [http://1.23.201.17](http://10.23.201.17) 
   
 ---------------------------------------------
+
 #### Méthode 2: Serveur python
 **Etape 1**: se placer dans le répertoire où se trouve les pages à héberger 
 <pre><code data-trim class="yaml">
@@ -44,4 +47,3 @@ Le but de cet article est de vous apprendre à héberger votre "shell code" en l
     sudo python -m SimpleHTTPServer 2020
   </code></pre> <br/>
 **Etape 3**: naviguer vers l'adresse IP de sa machine linux [http://1.23.201.17:2020](http://10.23.201.17:2020)
-  
