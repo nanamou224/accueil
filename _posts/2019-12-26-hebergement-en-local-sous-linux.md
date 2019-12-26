@@ -23,11 +23,11 @@ Le but de cet article est de vous apprendre à héberger votre "shell code" en l
 **Etape 1**: placer ses pages dans le répertoire: /var/www/ <br/>
 **Etape 2**: démarrer les services d'Apache2
   <pre><code data-trim class="yaml">
-    #méthode 1
-    sudo /etc/init.d/apache2 restart 
+      #méthode 1
+      sudo /etc/init.d/apache2 restart 
     
-    #méthode 2
-    sudo /etc/init.d/apache2 restart
+      #méthode 2
+      sudo /etc/init.d/apache2 restart
   </code></pre> <br/>
 **Etape 3**: naviguer vers l'adresse IP de sa machine linux [http://1.23.201.17](http://10.23.201.17) <br/>
   
