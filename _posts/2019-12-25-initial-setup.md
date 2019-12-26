@@ -14,7 +14,7 @@ Le but de cet article est de vous apprendre à héberger votre "shell code" en l
 
 #### Pré requis 
 1-Avoir installer et configurer le serveur web Apache2 <br/>
-2-Avoir installer et configurer l'interpreteur PHP
+2-Avoir installer et configurer l'interpreteur PHP <br/>
 3-Avoir installer et configurer le seveur de base de données MySQL
 
 <br/><br/>
