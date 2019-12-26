@@ -2,15 +2,18 @@
 
 <section id="{{ page.section-type }}" class="container content-section text-center">
     <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-
-         {{ page.content | markdownify }}  
+      
         
-        <blockquote>
             Salut l'ami! <br/>
             Si tu aimes l'odeur des NTICs et surtout celle de la cyber-sécurité, alors pousse cette porte pour accéder à mes articles...<br/>
-         </blockquote>
+         
           
+        <div class="col-md-10 col-md-offset-1">
+
+          
+         {{ page.content | markdownify }}  
+        
+        
         <h4><a href="{{site.baseurl}}/blog/">Articles par odre chronologique</a></h4>
         <h4><a href="{{site.baseurl}}/tags.html">Articles par catégorie</a></h4>
 
