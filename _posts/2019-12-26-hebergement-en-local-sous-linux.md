@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: Hébergement de pages en local sous linux
 category: exploitation web
-tags: [ 'reverse shell', 'hébergement en local sous linux', 'hacking', 'ctf' ]
+tags: [ 'reverse_shell', 'web', 'hacking', 'ctf' ]
 ---
 
 ---------------------------------------------
