@@ -12,9 +12,9 @@ Le but de cet article est de vous apprendre à héberger votre "shell code" en l
 se connecter à la vôtre et non pas vous apprendre à mettre en place "un serveur d'hébergement multiutilisateur sous Linux"!
 
 ## Pré requis 
-+ Avoir installer et configurer le serveur web Apache2
-+ Avoir installer et configurer l'interpreteur PHP
-+ Avoir installer et configurer le seveur de base de données MySQL
+1. Avoir installer et configurer le serveur web Apache2
+2. Avoir installer et configurer l'interpreteur PHP
+3. Avoir installer et configurer le seveur de base de données MySQL
 
 ### Méthode 1: Serveur Apache2
 **Etape 1**: placer ses pages dans le répertoire: /var/www/ <br/>
