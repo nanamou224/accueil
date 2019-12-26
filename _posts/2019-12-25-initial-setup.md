@@ -13,7 +13,7 @@ Le but de cet article est de vous apprendre à héberger votre "shell code" en l
 <br/><br/>
 
 #### Pré requis 
-1-Avoir installer et configurer le serveur web Apache2
+1-Avoir installer et configurer le serveur web Apache2 <br/>
 2-Avoir installer et configurer l'interpreteur PHP
 3-Avoir installer et configurer le seveur de base de données MySQL
 
