@@ -17,7 +17,7 @@ se connecter à la vôtre et non pas vous apprendre à mettre en place "un serve
 * Avoir installer et configurer le seveur de base de données MySQL
 
 ### Méthode 1: Serveur Apache2
-**Etape 1**: placer ses pages dans le répertoire: /var/www/
+**Etape 1**: placer ses pages dans le répertoire: /var/www/ <br/>
 **Etape 2**: démarrer les services d'Apache2
   <pre><code data-trim class="yaml">
     # méthode 1
