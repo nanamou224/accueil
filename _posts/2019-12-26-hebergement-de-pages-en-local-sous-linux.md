@@ -11,10 +11,10 @@ tags: [ 'reverse shell', 'hébergement en local sous linux', 'hacking', 'ctf' ]
 Le but de cet article est de vous apprendre à héberger votre "shell code" en local pour pouvoir demander à une machine distante de 
 se connecter à la vôtre et non pas vous apprendre à mettre en place "un serveur d'hébergement multiutilisateur sous Linux"!
 
-## Pré requis
-* Avoir installer et configurer le serveur web Apache2
-* Avoir installer et configurer l'interpreteur PHP
-* Avoir installer et configurer le seveur de base de données MySQL
+## Pré requis 
++ Avoir installer et configurer le serveur web Apache2
++ Avoir installer et configurer l'interpreteur PHP
++ Avoir installer et configurer le seveur de base de données MySQL
 
 ### Méthode 1: Serveur Apache2
 **Etape 1**: placer ses pages dans le répertoire: /var/www/ <br/>
