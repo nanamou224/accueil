@@ -13,9 +13,9 @@ tags: [ 'reverse shell', 'hébergement en local sous linux', 'hacking', 'ctf' ]
 <br/><br/>
 
 #### Pré requis 
-> Avoir installer et configurer le serveur web Apache2
-> Avoir installer et configurer l'interpreteur PHP
-> Avoir installer et configurer le seveur de base de données MySQL
+> + Avoir installer et configurer le serveur web Apache2
+> + Avoir installer et configurer l'interpreteur PHP
+> + Avoir installer et configurer le seveur de base de données MySQL
 
 <br/><br/>
 #### Méthode 1: Serveur Apache2
