@@ -36,7 +36,7 @@ se connecter à la vôtre et non pas vous apprendre à mettre en place "un serve
   </code></pre>
 **Etape 2**: lancer la commande
 <pre><code data-trim class="yaml">
-    #se mettre à l'écoute sous le port 2020
+    #se mettre à l'écoute sous le port 2020 
     sudo python -m SimpleHTTPServer 2020
   </code></pre>
 **Etape 3**: naviguer vers l'adresse IP de sa machine linux [http://1.23.201.17:2020](http://1.23.201.17:2020)
