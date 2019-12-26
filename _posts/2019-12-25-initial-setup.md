@@ -27,7 +27,7 @@ Le but de cet article est de vous apprendre à héberger votre "shell code" en l
     #méthode 2
     sudo /etc/init.d/apache2 restart
   </code></pre>
-**Etape 3**: naviguer vers l'adresse IP de sa machine linux [http://1.23.201.17](http://1.23.201.17) <br/><br/>
+**Etape 3**: naviguer vers l'adresse IP de sa machine linux [http://1.23.201.17](http://10.23.201.17) <br/><br/>
   
 
 #### Méthode 2: Serveur python
@@ -41,5 +41,5 @@ Le but de cet article est de vous apprendre à héberger votre "shell code" en l
     #se mettre à l'écoute sous le port 2020 
     sudo python -m SimpleHTTPServer 2020
   </code></pre>
-**Etape 3**: naviguer vers l'adresse IP de sa machine linux [http://1.23.201.17:2020](http://1.23.201.17:2020)
+**Etape 3**: naviguer vers l'adresse IP de sa machine linux [http://1.23.201.17:2020](http://10.23.201.17:2020)
   
