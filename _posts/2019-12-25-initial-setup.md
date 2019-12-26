@@ -8,7 +8,7 @@ tags: [ 'reverse shell', 'hébergement en local sous linux', 'hacking', 'ctf' ]
 
 <br/>
 #### Mise en garde
-Le but de cet article est de vous apprendre à héberger votre "shell code" en local pour pouvoir demander à une machine distante de se connecter à la vôtre et non pas vous apprendre à mettre en place "un serveur d'hébergement multiutilisateur sous Linux"! <br/>
+Le but de cet article est de vous apprendre à héberger votre "shell code" en local pour pouvoir demander à une machine distante de se connecter à la vôtre et non pas vous apprendre à mettre en place "un serveur d'hébergement multiutilisateur sous Linux"! 
 
 <br/>
 #### Pré requis 
@@ -26,7 +26,7 @@ Le but de cet article est de vous apprendre à héberger votre "shell code" en l
     
     #méthode 2
     sudo /etc/init.d/apache2 restart
-  </code></pre>
+  </code></pre> <br/>
 **Etape 3**: naviguer vers l'adresse IP de sa machine linux [http://1.23.201.17](http://10.23.201.17) <br/><br/>
   
 
@@ -40,6 +40,6 @@ Le but de cet article est de vous apprendre à héberger votre "shell code" en l
 <pre><code data-trim class="yaml">
     #se mettre à l'écoute sous le port 2020 
     sudo python -m SimpleHTTPServer 2020
-  </code></pre>
+  </code></pre> <br/>
 **Etape 3**: naviguer vers l'adresse IP de sa machine linux [http://1.23.201.17:2020](http://10.23.201.17:2020)
   
