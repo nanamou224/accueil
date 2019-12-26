@@ -20,9 +20,9 @@ se connecter à la vôtre et non pas vous apprendre à mettre en place "un serve
 **Etape 1**: placer ses pages dans le répertoire: /var/www/ <br/>
 **Etape 2**: démarrer les services d'Apache2
   <pre><code data-trim class="yaml">
-    # méthode 1
+    #méthode 1
     sudo /etc/init.d/apache2 restart  
-    # méthode 2
+    #méthode 2
     sudo /etc/init.d/apache2 restart
   </code></pre>
 **Etape 3**: naviguer vers l'adresse IP de sa machine linux [http://1.23.201.17](http://1.23.201.17)
@@ -31,13 +31,13 @@ se connecter à la vôtre et non pas vous apprendre à mettre en place "un serve
 ### Méthode 2: Serveur python
 **Etape 1**: se placer dans le répertoire où se trouve les pages à héberger 
 <pre><code data-trim class="yaml">
-    # exemple du repertoire par défaut de kali linux
+    #exemple du repertoire par défaut de kali linux
     cd /usr/share/webshell/php
   </code></pre>
 **Etape 2**: lancer la commande
 <pre><code data-trim class="yaml">
-    # se mettre à l'écoute sous le port 2020
-    #python -m SimpleHTTPServer 2020
+    #se mettre à l'écoute sous le port 2020
+    sudo python -m SimpleHTTPServer 2020
   </code></pre>
 **Etape 3**: naviguer vers l'adresse IP de sa machine linux [http://1.23.201.17:2020](http://1.23.201.17:2020)
   
