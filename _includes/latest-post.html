@@ -1,4 +1,3 @@
-
 <!-- Latest Post Preview Start -->
 
 <section id="{{ page.section-type }}" class="container content-section text-center">
@@ -7,7 +6,7 @@
 
         {{ page.content | markdownify }}
 
-        {% assign post = site.posts %}
+        {% assign post = site.posts.first %}
         <h4> <strong> {{ post.date | date_to_string }} </strong>
           <small>.
             <a class="category" href="{{site.baseurl}}/categories/{{post.category | downcase}}.html">
@@ -17,13 +16,13 @@
           <strong> <a href="{{site.baseurl}}{{ post.url }}">{{post.title}} </a> </strong>
           <small> <a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
         </h4>
-          
-          
-            <h4><a href="{{site.baseurl}}/blog/">Accéder aux articles ici</a></h4>
-       
+
+        {{ post.content | strip_html | markdownify | truncatewords: site.post-preview-words }}
+
+        <h4><a href="{{site.baseurl}}/blog/">More Blog Posts</a></h4>
+
       </div>
     </div>
-    
 </section>
 
-
+<!-- Latest Post Preview End -->
