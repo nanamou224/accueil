@@ -23,7 +23,8 @@ Avoir installer et configurer le seveur de base de données MySQL
 **Etape 2**: démarrer les services d'Apache2
   <pre><code data-trim class="yaml">
     #méthode 1
-    sudo /etc/init.d/apache2 restart  
+    sudo /etc/init.d/apache2 restart 
+    
     #méthode 2
     sudo /etc/init.d/apache2 restart
   </code></pre>
