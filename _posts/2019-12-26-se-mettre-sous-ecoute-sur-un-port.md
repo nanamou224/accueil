@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: Se mettre sous écoute sur un port
 category: exploitation web
-tags: [ 'reverse shell', 'Se mettre sous écoute sur un port', 'hacking', 'ctf' ]
+tags: [ 'reverse_shell', 'web', 'hacking', 'ctf' ]
 ---
 
 ---------------------------------------------
