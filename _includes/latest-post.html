@@ -1,39 +1,48 @@
-
 <!-- Latest Post Preview Start -->
+
+<!-- IRB: grid system is called bootstrap.   Supposed to add to 12, though this added to 11 -->
+<!--       method is to add a row div  each time defien new column layout. -->
+
 
 <section id="{{ page.section-type }}" class="container content-section text-center">
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
-
         {{ page.content | markdownify }}
+    
+				<div style="align:center; display:inline-block;">              
+					{% include blog_nav.html %}
+					<!-- IRB: Updated from singe post to multiple post titles.  Hard code for now... --> 
+					{% for post in site.posts %}
 
-        {% assign post = site.posts.first %}
-        <h4> <strong> {{ post.date | date_to_string }} </strong>
-          <small>.
-            <a class="category" href="{{site.baseurl}}/categories/{{post.category | downcase}}.html">
-              {{ post.category }}
-            </a>
-          .</small>
-          <strong> <a href="{{site.baseurl}}{{ post.url }}">{{post.title}} </a> </strong>
-          <small> <a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
-        </h4>
-          
-          {% assign post = site.posts.second %}
-        <h4> <strong> {{ post.date | date_to_string }} </strong>
-          <small>.
-            <a class="category" href="{{site.baseurl}}/categories/{{post.category | downcase}}.html">
-              {{ post.category }}
-            </a>
-          .</small>
-          <strong> <a href="{{site.baseurl}}{{ post.url }}">{{post.title}} </a> </strong>
-          <small> <a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
-        </h4>
 
-            <h4><a href="{{site.baseurl}}/blog/">Accéder aux articles ici</a></h4>
-       
+					<!-- IRB: --> 
+					<!-- Added an attricute to post YAML Front Matter: frontPgDisp                 --> 
+					<!-- If that is set ie present and not empty, then the post will appear        --> 
+					<!-- This lets me control the posts more easily.  Recommend displaying 5 posts --> 
+					{% if post.frontPgDisp and post.frontPgDisp != "" %}
+							<h4 align="left"> <span class="smaller"> {{ post.date | date_to_string }} </span>
+								<small>.
+									<a class="category" href="{{site.baseurl}}/categories/{{post.category | downcase}}.html">
+										{{ post.category }}
+									</a>
+								</small>
+								<br />
+								<strong> <a href="{{site.baseurl}}{{ post.url }}">{{post.title}} </a> </strong>
+								<!--<small> <a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>-->
+							</h4>
+					{% endif %}
+
+					{% endfor %}
+				</div>
+    
+        <h4><a class="smaller" href="{{site.baseurl}}/blog/">Read Full Archive</a></h4>
       </div>
     </div>
     
+        
+
+      
 </section>
 
-
+<!-- Latest Post Preview End -->
+© 2019 GitHub, Inc.
