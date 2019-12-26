@@ -36,8 +36,8 @@ Le but de cet article est de vous apprendre à héberger votre "shell code" en l
     #exemple du repertoire par défaut de kali linux
     cd /usr/share/webshell/php
   </code></pre>
-**Etape 2**: lancer la commande
-<pre><code data-trim class="yaml">
+**Etape 2**: lancer la commande <br/>
+<pre><code data-trim class="yaml"> 
     #se mettre à l'écoute sous le port 2020 
     sudo python -m SimpleHTTPServer 2020
   </code></pre> <br/>
