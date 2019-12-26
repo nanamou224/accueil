@@ -20,7 +20,7 @@ Le but de cet article est de vous apprendre à héberger votre "shell code" en l
 ---------------------------------------------
 
 #### Méthode 1: Serveur Apache2
-**Etape 1**: placer ses pages dans le répertoire: /var/www/ <br/>
+**Etape 1**: placer ses pages dans le répertoire: `/var/www/` <br/>
 **Etape 2**: démarrer les services d'Apache2
   <pre><code data-trim class="yaml">
       #méthode 1
