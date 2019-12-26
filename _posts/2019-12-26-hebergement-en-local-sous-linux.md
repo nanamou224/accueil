@@ -24,7 +24,7 @@ Le but de cet article est de vous apprendre à héberger votre "shell code" en l
 **Etape 2**: démarrer les services d'Apache2
   <pre><code data-trim class="yaml">
       #méthode 1
-      sudo /etc/init.d/apache2 restart 
+      sudo /etc/init.d/apache2 start 
   </code></pre> <br/>
    <pre><code data-trim class="yaml">
       #méthode 2
