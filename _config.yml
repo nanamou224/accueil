@@ -54,12 +54,11 @@ loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 3
 start-delay: 20
-delete-delay: 1000
+delete-delay: 900
 lines: # You can add HTML Tags in the Text
   - text: "Bienvenue sur le bloc notes d'un hacker bienveillant !"
   - text: "Je suis N'Famoussa Kounon NANAMOU."
   - text: "Et si on apprenait quelque chose de sympa?"
-  - text: "Dormons moins bête aujourd'hui..."
 
 me-img: "/img/jetpacktocat.png"
 
