@@ -27,7 +27,7 @@ Pour des raisons de modularité, un article traitant le reverse shell de façon 
       cd /usr/share/webshell/php 
   </code></pre> <br/>
 
-NB: Il ne faudra pas oublier de faire les modifications qui vont bien dans ce fichier notamment votre IP et port d'écoute.
+NB: N'oubliez pas de faire les modifications qui vont bien dans ce fichier notamment votre IP et port d'écoute.
 
 ---------------------------------------------
 
@@ -45,7 +45,7 @@ NB: Il ne faudra pas oublier de faire les modifications qui vont bien dans ce fi
       weevely generate noLog_hhhhhhhh /root/Desktop/backdoor.php 
   </code></pre> <br/>
 
-NB: Il ne faudra pas oublier de faire les modifications qui vont bien dans ce fichier notamment votre IP et port d'écoute.
+NB: N'oubliez pas de faire les modifications qui vont bien dans ce fichier notamment votre IP et port d'écoute.
 
 ---------------------------------------------
 
@@ -55,7 +55,7 @@ NB: Il ne faudra pas oublier de faire les modifications qui vont bien dans ce fi
       weevely generate noLogMe /root/Desktop/backdoor.php 
   </code></pre> <br/>
 
-NB: Il ne faudra pas oublier de faire les modifications qui vont bien dans ce fichier notamment votre IP et port d'écoute.
+NB: N'oubliez pas de faire les modifications qui vont bien dans ce fichier notamment votre IP et port d'écoute.
 
 ---------------------------------------------
 
