@@ -50,14 +50,14 @@ NB: N'oubliez pas de faire les modifications qui vont bien, notamment votre IP e
 
 ---------------------------------------------
 
-#### Méthode 6: utiliser Internet
+#### Méthode 5: utiliser Internet
   visiter le site web : [http://pentestmonkey.net/](http://pentestmonkey.net/), par exemple
 
 NB: Il ne faudra pas oublier de faire les modifications qui vont bien, notamment votre IP et port d'écoute.
 
 ---------------------------------------------
 
-#### Méthode 7: codez vous-même
+#### Méthode 6: codez vous-même
   Nous reviendrons plus tard sur la logique de codage de votre propre reverse shell et le pratiquerons en C, python et PHP. Vous devinez donc que vous aurez besoin de savoir programmer en C ou en python ou en PHP en plus d'avoir des notions de base en réseau informatique
 
 ---------------------------------------------
