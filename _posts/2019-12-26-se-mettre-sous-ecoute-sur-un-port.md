@@ -8,7 +8,7 @@ tags: [ 'reverse_shell', 'web', 'hacking', 'ctf' ]
 
 ---------------------------------------------
 #### Mise en garde
-Dans cet article, je vous montre un simple usage de netcat et meterpreter. Pour des besoins plus avancés, RTFM :p 
+Dans cet article, je vous montre un simple usage de netcat et meterpreter. Pour aller plus loin, RTFM :p 
 
 ---------------------------------------------
 
@@ -36,4 +36,5 @@ Dans cet article, je vous montre un simple usage de netcat et meterpreter. Pour 
      
 ---------------------------------------------
 
-			
+
+##### NB: Il n’est pas nécessaire d’avoir les droits "root" pour mettre un port en écoute !
