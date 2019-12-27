@@ -27,7 +27,7 @@ Pour des raisons de modularité, un article traitant le reverse shell de façon 
       cd /usr/share/webshell/php 
   </code></pre> <br/>
 
-NB: N'oubliez pas de faire les modifications qui vont bien notamment votre IP et port d'écoute.
+NB: N'oubliez pas de faire les modifications qui vont bien, notamment votre IP et port d'écoute.
 
 ---------------------------------------------
 
@@ -45,7 +45,7 @@ NB: N'oubliez pas de faire les modifications qui vont bien notamment votre IP et
       weevely generate noLog_hhhhhhhh /root/Desktop/backdoor.php 
   </code></pre> <br/>
 
-NB: N'oubliez pas de faire les modifications qui vont bien notamment votre IP et port d'écoute.
+NB: N'oubliez pas de faire les modifications qui vont bien, notamment votre IP et port d'écoute.
 
 ---------------------------------------------
 
@@ -55,14 +55,14 @@ NB: N'oubliez pas de faire les modifications qui vont bien notamment votre IP et
       weevely generate noLogMe /root/Desktop/backdoor.php 
   </code></pre> <br/>
 
-NB: N'oubliez pas de faire les modifications qui vont bien notamment votre IP et port d'écoute.
+NB: N'oubliez pas de faire les modifications qui vont bien, notamment votre IP et port d'écoute.
 
 ---------------------------------------------
 
 #### Méthode 6: utiliser Internet
   visiter le site web : [http://pentestmonkey.net/](http://pentestmonkey.net/), par exemple
 
-NB: Il ne faudra pas oublier de faire les modifications qui vont bien notamment votre IP et port d'écoute.
+NB: Il ne faudra pas oublier de faire les modifications qui vont bien, notamment votre IP et port d'écoute.
 
 ---------------------------------------------
 
