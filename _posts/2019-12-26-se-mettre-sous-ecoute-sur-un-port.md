@@ -21,7 +21,9 @@ Dans cet article, je vous montre un simple usage de netcat et meterpreter. Pour 
       #se mettre sous écoute sur le port 1234
       netcat -lvp 1234 
   </code></pre> <br/>
-     
+  
+  NB: Il n’est pas nécessaire d’avoir les droits "root" pour mettre un port en écoute !
+  
 ---------------------------------------------
 #### Méthode 2: Utiliser meterpreter
   <pre><code data-trim class="yaml">
@@ -34,7 +36,6 @@ Dans cet article, je vous montre un simple usage de netcat et meterpreter. Pour 
       run
   </code></pre> <br/>
      
+  NB: Il n’est pas nécessaire d’avoir les droits "root" pour mettre un port en écoute !
+  
 ---------------------------------------------
-
-
-##### NB: Il n’est pas nécessaire d’avoir les droits "root" pour mettre un port en écoute !
