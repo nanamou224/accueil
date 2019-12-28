@@ -16,7 +16,8 @@ Tout comme la "Médecine", la "Sécurité de l'Information" est l'un des plus va
   3- Peut-on tout sécuriser? Sinon qu'est-ce qu'on peut sécuriser et que faire du reste?<br/>
   4- Comment sécuriser? 
   
-Les réponses à ces questions ne sont pas aussi évidentes que vous le pensez (😛). Y répondre de façon plus formelle demanderait le temps d'un parcours en spécialité : "Sécurité des Systèmes d'Information", soit au moins bac+5. <br/>
+Les réponses à ces questions ne sont pas aussi évidentes que vous le pensez (😛). Y répondre de façon plus formelle demanderait le temps d'un parcours en spécialité : "Sécurité des Systèmes d'Information", soit au moins bac+5. 
+
 La bonne nouvelle, c'est qu'ici, je traiterai ces questions avec vous de la plus simple des manières pour vous permettre d'appréhender les notions plus ou moins complexes de la "Sécurité de l'information".
 
 Je retourne en cours et nous continuerons cet article plus tard.<br/>
