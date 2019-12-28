@@ -12,7 +12,7 @@ tags: [ 'Sécurité_Information', 'Article_détaillé' ]
 Tout comme la "Médecine", la "Sécurité de l'Information" est l'un des plus vastes domaines d'études. Imaginez qu'il faille plus d'une vie pour l'étudier en entier (😥). C'est pourquoi les "Spécialistes" sont tout le temps en veille technologique. Néanmoins, les questions ci-dessous sont les plus importantes pour commencer : 
 
   1- C'est quoi la Sécurité? <br/>
-  2  Pourquoi fait-on de la Sécurité? <br/>
+  2- Pourquoi fait-on de la Sécurité? <br/>
   3- Peut-on tout sécuriser? Sinon qu'est-ce qu'on peut sécuriser et que faire du reste?<br/>
   4- Comment sécuriser? 
   
