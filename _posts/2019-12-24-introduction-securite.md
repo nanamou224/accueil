@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: Introduction à la Sécurité de l'Information
 category: Sécurité de l'Information
-tags: [ 'Théorie pour débuter en Sécurité de l'Information',' Article détaillé ' ]
+tags: [ 'Théorie pour débuter en Sécurité de l\'Information', 'Article détaillé' ]
 ---
 
 ---------------------------------------------
