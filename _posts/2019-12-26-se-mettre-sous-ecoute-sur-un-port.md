@@ -40,7 +40,9 @@ Dans cet article, je vous montre un simple usage de netcat et meterpreter. Pour 
   
 ---------------------------------------------
  #### Aller plus loin
- <pre><code data-trim class="yaml">
+  <pre><code data-trim class="yaml">
     #Faire en sorte que le shell gère les entrées/sorties sans broncher ;)
     python -c 'import pty; pty.spawn('/bin/bash")' 
- </code></pre> <br/>
+  </code></pre> <br/>
+ 
+ ---------------------------------------------
