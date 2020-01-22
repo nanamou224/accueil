@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: Les portes dérobées (backdoors)
 category: exploitation web
-tags: [ 'reverse_shell',, 'backdoor', 'web', 'hacking', 'ctf' ]
+tags: [ 'reverse_shell', 'backdoor', 'web', 'hacking', 'ctf' ]
 ---
 
 ---------------------------------------------
