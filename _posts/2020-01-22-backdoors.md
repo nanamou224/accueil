@@ -27,7 +27,7 @@ Un reverse TCP shell est un invite de commandes, sans utilisateur et qui permet 
 Un bind TCP shell lie l'invite de commande à un port d'écoute. Dans ce cas là on va utiliser la machine cible en mode serveur et se connecter dessus depuis notre machine attaquante.
 
 NB: Le choix entre un reverse TCP shell et un blind TCP shell dépend de la situation et de la configuration réseau. 
-- Si la machine attaquée est derrière un routeur qui fait du NAT et n'est pas routable depuis l’extérieur, l’utilisation du bind shell est impossible. 
-- Si, par exemple en ctf, vous attaquez une IP publique mais que n’avez que votre connexion avec votre box qui fait du NAT, c’est beaucoup plus indiqué d’utiliser un bind shell.
+<p style="text-align: letf;"> + Si la machine attaquée est derrière un routeur qui fait du NAT et n'est pas routable depuis l’extérieur, l’utilisation du bind shell est impossible. </p>
+<p style="text-align: letf;"> + Si, par exemple en ctf, vous attaquez une IP publique mais que n’avez que votre connexion avec votre box qui fait du NAT, c’est beaucoup plus indiqué d’utiliser un bind shell.</p>
 
 ---------------------------------------------
