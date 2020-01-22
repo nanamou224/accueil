@@ -39,3 +39,8 @@ Dans cet article, je vous montre un simple usage de netcat et meterpreter. Pour 
   NB: Il n’est pas nécessaire d’avoir les droits "root" pour mettre un port en écoute !
   
 ---------------------------------------------
+ #### Aller plus loin
+ <pre><code data-trim class="yaml">
+    #Faire en sorte que le shell gère les entrées/sorties sans broncher ;)
+    python -c 'import pty; pty.spawn('/bin/bash")' 
+ </code></pre> <br/>
